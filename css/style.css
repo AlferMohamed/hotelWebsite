@@ -9,7 +9,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 25px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 a {
@@ -51,7 +51,10 @@ h3 {
 
 .btn-primary:hover {
     background: #7082a2;
-    color: #fff;
+}
+
+.clr {
+    clear: both;
 }
 
 /* Navbar ____________________________________________________________________________________________ */
@@ -140,7 +143,7 @@ header nav ul li a.current {
     /* Scroll bar is hidden if text goes beyond */
     overflow: hidden;
     text-align: center;
-    padding: 100px 30px;
+    padding: 100px 50px;
 }
 
 #hotel-history #history-content h2 {
@@ -152,7 +155,6 @@ header nav ul li a.current {
 }
 
 /* Features section _________________________________________________________________________________________ */
-
 #features .box {
     float: left;
     width: 33.33%;
@@ -166,4 +168,12 @@ header nav ul li a.current {
 
 #features .box h3 {
     margin-bottom: 15px;
+}
+
+/* Footer section _________________________________________________________________________________________ */
+footer {
+    text-align: right;
+    color: #fff;
+    font-size: 12px;
+    padding: 15px;
 }
