@@ -12,11 +12,13 @@ body {
     letter-spacing: 2px;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     letter-spacing: 3px;
 }
 
@@ -27,12 +29,19 @@ h1,h2,h3 {
 }
 
 .text-primary {
-    color: #196bde;
+    color: #3a517a;
+}
+
+.bg-primary {
+    background: #3a517a;
+}
+
+.bg-secondary {
+    background: #bfc3cc;
 }
 
 .btn-primary {
     display: inline-block;
-    background: #333;
     color: #fff;
     padding: 10px 15px;
     font-size: 16px;
@@ -41,22 +50,19 @@ h1,h2,h3 {
 }
 
 .btn-primary:hover {
-    background: #196bde;
-    color: #333;
+    background: #7082a2;
+    color: #fff;
 }
 
-.btn-ligth {
-    
-}
+.btn-secondary {}
 
 /* Navbar ____________________________________________________________________________________________ */
 header nav {
-    background: #333;
     /* If overflow is not set to auto nav bar get dissapeared */
     overflow: auto;
 }
 
-header nav a{
+header nav a {
     color: #fff;
 }
 
@@ -85,10 +91,8 @@ header nav ul li a {
 
 header nav ul li a:hover,
 /* Link is highligted when current page is active */
-header nav ul li a.current
-{
-    background: #444;
-    color: #196bde;
+header nav ul li a.current {
+    background: #7082a2;
 }
 
 /* Showcase _________________________________________________________________________________________ */
@@ -113,5 +117,36 @@ header nav ul li a.current
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 30px;
-}   
+}
 
+/* History section _________________________________________________________________________________________ */
+#hotel-history {
+    height: 400px;
+}
+
+#hotel-history #history-img {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: url(../img/balcony.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#hotel-history #history-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    /* Scroll bar is hidden if text goes beyond */
+    overflow: hidden;
+    text-align: center;
+    padding: 100px 30px;
+}
+
+#hotel-history #history-content h2 {
+    margin-bottom: 30px;
+}
+
+#hotel-history #history-content p {
+    margin-bottom: 30px;
+}
