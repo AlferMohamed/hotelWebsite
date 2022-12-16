@@ -16,7 +16,6 @@ a {
     text-decoration: none;
 }
 
-h1,
 h2,
 h3 {
     letter-spacing: 3px;
@@ -183,7 +182,7 @@ footer {
     margin-bottom: 15px;
 }
 
-/* About.html -About section _______________________________________________________________________________ */
+/* About.html > About section _______________________________________________________________________________ */
 #about {
     /* set overflow: auto when using float. Else back ground get dissapeared */
     overflow: auto;
@@ -208,4 +207,35 @@ footer {
     display: block;
     margin: auto;
     border-radius: 40%;
+}
+
+/* About.html > Testomonial section _______________________________________________________________________________ */
+
+#testomonials {
+    background: url(../img/hotel_testomonial.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    color: #fff;
+    padding: 20px 0px;
+}
+
+#testomonials h2 {
+    text-align: center;
+}
+
+#testomonials .testimonial {
+    overflow: auto;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    /* Entire dive is get affected including text */
+    opacity: 0.9;
+}
+
+#testomonials .testimonial img {
+    width: 75px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 20px;
 }
