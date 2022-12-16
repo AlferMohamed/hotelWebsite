@@ -20,6 +20,11 @@ h1,
 h2,
 h3 {
     letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
 }
 
 /* Utility ___________________________________________________________________________________________ */
@@ -96,7 +101,15 @@ header nav ul li a.current {
     background: #7082a2;
 }
 
-/* Showcase _________________________________________________________________________________________ */
+/* Footer section _________________________________________________________________________________________ */
+footer {
+    text-align: right;
+    color: #fff;
+    font-size: 12px;
+    padding: 15px;
+}
+
+/* index.html > Showcase _____________________________________________________________________________________ */
 #showcase {
     background-image: url(../img/showcase.jpg);
     height: 92.3vh;
@@ -120,7 +133,7 @@ header nav ul li a.current {
     margin-bottom: 30px;
 }
 
-/* History section _________________________________________________________________________________________ */
+/* index.html > History section ________________________________________________________________________________ */
 #hotel-history {
     height: 400px;
 }
@@ -154,7 +167,7 @@ header nav ul li a.current {
     margin-bottom: 30px;
 }
 
-/* Features section _________________________________________________________________________________________ */
+/* index.html > Features section _______________________________________________________________________________ */
 #features .box {
     float: left;
     width: 33.33%;
@@ -170,10 +183,29 @@ header nav ul li a.current {
     margin-bottom: 15px;
 }
 
-/* Footer section _________________________________________________________________________________________ */
-footer {
-    text-align: right;
-    color: #fff;
-    font-size: 12px;
-    padding: 15px;
+/* About.html -About section _______________________________________________________________________________ */
+#about {
+    /* set overflow: auto when using float. Else back ground get dissapeared */
+    overflow: auto;
+    padding: 20px 0px;
+}
+
+#about #about-left {
+    width: 50%;
+    float: left;
+    min-height: 100%;
+    text-align: center;
+}
+
+#about #about-right {
+    width: 50%;
+    float: right;
+}
+
+#about #about-right img {
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin: auto;
+    border-radius: 40%;
 }
