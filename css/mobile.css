@@ -1,0 +1,86 @@
+/* Navbar ____________________________________________________________________________________________ */
+header .container {
+text-align: center;
+}
+
+header nav #logo {
+    float: none;
+}
+
+header nav ul {
+    float: none;
+    display: inline-block;
+}
+
+/* index.html > Showcase _____________________________________________________________________________________ */
+#showcase {
+    height: 51vh;
+}
+
+#showcase .container #showcase-content {
+    padding: 80px 40px;
+}
+
+#showcase .container #showcase-content h2 {
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+
+/* index.html > History section ________________________________________________________________________________ */
+#hotel-history {
+    height: 400px;
+}
+
+#hotel-history #history-content {
+    padding: 70px 50px;
+}
+
+#hotel-history #history-content h2 {
+    margin-bottom: 20px;
+}
+
+/* About.html > About section _______________________________________________________________________________ */
+#about {
+    padding: 40px 30px;
+}
+
+#about #about-left {
+    padding:  0px 5px;
+}
+
+#about #about-left h2 {
+    margin-bottom: 12px;
+}
+
+#about #about-right img {
+    width: 320px;
+    height: 250px;
+    border-radius: 40%;
+}
+
+/* About.html > Testomonial section _______________________________________________________________________________ */
+#testomonials{
+    padding: 20px 20px;
+}
+
+/* contact.html > Contact-form section _______________________________________________________________________________ */
+#contact-form .container {
+    max-width: 700px;
+    margin: auto;
+}
+
+#contact-form .container h2 {
+    margin-bottom: 25px;
+}
+
+#contact-form .container p {
+    margin-bottom: 20px;
+}
+
+#contact-form .container .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form .container .form-group label {
+    margin-bottom: 5px;
+}
