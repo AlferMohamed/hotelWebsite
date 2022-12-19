@@ -9,21 +9,12 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 25px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
+    color: #333;
 }
 
 a {
     text-decoration: none;
-}
-
-h2,
-h3 {
-    letter-spacing: 3px;
-    margin-bottom: 20px;
-}
-
-p {
-    margin-bottom: 15px;
 }
 
 /* Utility ___________________________________________________________________________________________ */
@@ -51,10 +42,21 @@ p {
     font-size: 16px;
     font-weight: 600;
     border-radius: 3px;
+    /* Below are button properties*/
+    border: none;
+    cursor: pointer;
 }
 
 .btn-primary:hover {
     background: #7082a2;
+}
+
+.padding-20-0 {
+    padding: 20px 0px;
+}
+
+.padding-30-0 {
+    padding: 30px 0px;
 }
 
 .clr {
@@ -238,4 +240,50 @@ footer {
     float: left;
     margin-right: 20px;
     border-radius: 20px;
+}
+
+/* contact.html > Contact-form section _______________________________________________________________________________ */
+#contact-form .container h2
+{
+    text-align: center;
+}
+
+#contact-form .container p {
+    font-weight: 600;
+    color: #000;
+}
+
+#contact-form .container .form-group {
+    margin-bottom: 15px;
+}
+
+#contact-form .container .form-group label {
+    display: block;
+}
+
+#contact-form .container .form-group input,
+#contact-form .container .form-group textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    resize: none;
+}
+
+#contact-form .container .form-group input:focus,
+#contact-form .container .form-group textarea:focus {
+    outline: none;
+    border-color: #3a517a;
+}
+
+/* contact.html > Contact information _______________________________________________________________________________ */
+#contact-info .container .class {
+    float: left;
+    width: 33.3%;
+    padding: 50px 40px;
+    text-align: center;
+}
+
+#contact-info .container .class h4 {
+    margin: 10px;
 }
